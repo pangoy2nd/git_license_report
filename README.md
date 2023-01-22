@@ -10,3 +10,5 @@ You may use this guide if you are in the process of estimating how many GHAS lic
  - https://github.com/pangoy2nd/git_license_report/blob/main/git-linux-cmd
  
 3. To avoid incurring unnecessary licensing cost, you may setup an approval process before a User is added into the repo. You may use your favorite ticketing tool, but the idea is, all Users that need access to your sensitive git repos where GHAS is enabled will need User Manager and Infosec approval before they can be added to the git repo. With this, you have an audit and control of who is being added to the repo which is also a security best practice.
+
+4. Lastly, simplity is key! Hope you enjoy the material provided...
