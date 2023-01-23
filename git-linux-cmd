@@ -2,10 +2,10 @@
 
 git shortlog --group=committer --summary --since "3 months" > committers_90days.csv
 
-# Use the command below to count the lines in users.csv file to check quickly how many users have committed to the specific repo for the last 90 days
+# Use the command below to count the lines in committers_90days.csv file to check quickly how many users have committed to the specific repo for the last 90 days
 
 wc -l committers_90days.csv
 
-# Use any text or speadsheet program you have to view user information in the users.csv file for your review exercise. To view the content quickly in the file, you can use the command as follow.
+# Use any text or speadsheet program you have to view user information in the committers_90days.csv file for your review exercise. To view the content quickly in the file, you can use the command as follow.
 
-more users.csv | grep "Zack"
+more committers_90days.csv | grep "Zack"
